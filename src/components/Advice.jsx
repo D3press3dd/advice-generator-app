@@ -46,7 +46,7 @@ const Advice = () => {
       {loading ? (
         <Loading />
       ) : (
-        <p className="advice-content">"{advice.advice}"</p>
+        <h1 className="advice-content">"{advice.advice}"</h1>
       )}
       <div className="divider">
         <hr className="right" />
