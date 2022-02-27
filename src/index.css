@@ -110,13 +110,13 @@ img {
 
 .dice-container::after {
   content: "";
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   background: var(--neon-green);
   position: absolute;
-  left: -12.6px;
-  bottom: -12.6px;
+  left: -17.1px;
+  bottom: -17.4px;
   z-index: -1;
   transition: all 0.5s;
 }
