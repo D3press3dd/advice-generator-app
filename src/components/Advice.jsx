@@ -42,11 +42,11 @@ const Advice = () => {
 
   return (
     <div className="advice-card">
-      <p className="advice-id">Advice #{advice.id}</p>
+      <h1 className="advice-id">Advice #{advice.id}</h1>
       {loading ? (
         <Loading />
       ) : (
-        <h1 className="advice-content">"{advice.advice}"</h1>
+        <p className="advice-content">"{advice.advice}"</p>
       )}
       <div className="divider">
         <hr className="right" />

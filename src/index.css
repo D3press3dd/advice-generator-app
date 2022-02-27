@@ -58,7 +58,6 @@ main {
   display: flex;
   flex-direction: column;
   font-weight: 800;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
   background: var(--grayish-blue);
@@ -83,6 +82,8 @@ main {
 
 .advice-content {
   font-size: 2.8rem;
+  padding: 2rem;
+  text-align: center;
 }
 
 .dice-container {
@@ -93,7 +94,7 @@ main {
 }
 
 .divider {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   position: relative;
 }
 
@@ -121,8 +122,8 @@ main {
   border-radius: 50%;
   background: var(--neon-green);
   position: absolute;
-  left: -17.1px;
-  bottom: -17.4px;
+  left: -17.2px;
+  bottom: -17.2px;
   z-index: -1;
   transition: all 0.5s;
 }
@@ -139,7 +140,7 @@ main {
 }
 
 .dice:hover {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 
   transition: all 1s;
 }
