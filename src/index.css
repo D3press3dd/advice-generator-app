@@ -48,6 +48,12 @@ img {
   margin-top: 25vh;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .advice-card {
   display: flex;
   flex-direction: column;
