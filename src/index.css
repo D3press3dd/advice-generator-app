@@ -43,6 +43,8 @@ img {
 }
 
 #container {
+  display: flex;
+  justify-items: center;
   margin-top: 25vh;
 }
 
@@ -70,6 +72,7 @@ img {
   text-transform: uppercase;
   color: var(--neon-green);
   letter-spacing: 0.2rem;
+  margin-top: 2rem;
 }
 
 .advice-content {
@@ -79,8 +82,30 @@ img {
 .dice-container {
   position: absolute;
   bottom: -1.2rem;
-  cursor: pointer;
+
   z-index: 1;
+}
+
+.divider {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.left,
+.right {
+  position: absolute;
+  color: hsla(193, 38%, 86%, 0.295);
+  top: 50%;
+  width: 45%;
+  opacity: 0.3;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
 }
 
 .dice-container::after {
@@ -89,13 +114,10 @@ img {
   height: 5rem;
   border-radius: 50%;
   background: var(--neon-green);
-
-  z-index: -1;
-
   position: absolute;
-  cursor: pointer;
   left: -12.6px;
   bottom: -12.6px;
+  z-index: -1;
   transition: all 0.5s;
 }
 
@@ -103,7 +125,6 @@ img {
   -webkit-box-shadow: 0px 0px 29px 0px rgba(82, 255, 169, 0.9);
   -moz-box-shadow: 0px 0px 29px 0px rgba(82, 255, 169, 0.9);
   box-shadow: 0px 0px 29px 0px rgba(82, 255, 169, 0.9);
-
   transition: all 0.5s;
 }
 
@@ -113,7 +134,12 @@ img {
 
 .dice:hover {
   transform: rotate(90deg);
+
   transition: all 1s;
+}
+
+.dice-container img {
+  cursor: pointer;
 }
 
 /* LOADER */
@@ -152,5 +178,27 @@ img {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* MEDIA QUERIESS */
+/* MEDIA QUERIESS */
+/* MEDIA QUERIESS */
+/* MEDIA QUERIESS */
+
+@media (max-width: 520px) {
+  .advice-card {
+    width: 90%;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 367px) {
+  .advice-content {
+    font-size: 1.8rem;
   }
 }
