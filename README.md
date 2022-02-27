@@ -17,7 +17,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ## Overview
 
@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/advice-generator-with-react-completely-responsive-wd5Mow7tp)
 - Live Site URL: [Live Preview](https://advice-generator-app-anthonyrosman.netlify.app/)
 
 ## My process
